@@ -13,7 +13,7 @@ export default function App() {
       await Font.loadAsync({
         'ManufacturingConsent': require('./assets/fonts/ManufacturingConsent-Regular.ttf'),
       });
-      console.log("✅ Font loaded");
+      
       setFontsLoaded(true);
       await SplashScreen.hideAsync();
     }
